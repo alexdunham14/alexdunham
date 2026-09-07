@@ -23,4 +23,3 @@ still serves it too. (alexdunham.com belongs to someone else.)
 - The intro line is a DRAFT placeholder for Alex to write.
 - Three sites have no repo link: Classical Concert Map and Ireland Travel Map
   are private repos; Where Does My Tax Money Go has no GitHub repo.
-- Libretto Finder has no domain; it links to its workers.dev address.
