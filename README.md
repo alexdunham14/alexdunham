@@ -1,11 +1,11 @@
-# alexdunham.com
+# alexdunham.net
 
 A list of Alex Dunham's websites: name, link, one factual sentence, and a link
 to the GitHub repo where the repo is public. Nothing else.
 
 ## Definition of done
 
-- One page at alexdunham.com listing every live site, each with a link, a
+- One page at alexdunham.net listing every live site, each with a link, a
   sentence on what it is, and a repo link where the repo is public.
 - Plain HTML and a few lines of CSS. No JavaScript, no data file, no build
   step: eight entries do not need one.
@@ -13,10 +13,10 @@ to the GitHub repo where the repo is public. Nothing else.
 
 ## Deploy
 
-`wrangler deploy` here. Until alexdunham.com is added as a zone on the
-Cloudflare account (nameservers pointed at Cloudflare), the site is at
-alexdunham.alexdunham14.workers.dev; then uncomment `routes` in
-`wrangler.jsonc` and deploy again.
+`wrangler deploy` here. alexdunham.net is bought through Cloudflare Registrar,
+so the zone exists with the domain. Once it does, uncomment `routes` in
+`wrangler.jsonc` and deploy again. Until then the site is at
+alexdunham.alexdunham14.workers.dev. (alexdunham.com belongs to someone else.)
 
 ## Not done
 
