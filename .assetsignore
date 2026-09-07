@@ -1,0 +1,7 @@
+# Only the site itself is uploaded to Cloudflare.
+.git
+.gitignore
+.assetsignore
+.wrangler
+README.md
+wrangler.jsonc
