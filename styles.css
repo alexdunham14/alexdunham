@@ -16,6 +16,19 @@ li p { margin: .2rem 0 0; }
 .gh { margin-left: .5rem; font-size: .9rem; }
 .gh a { color: #666; }
 a { color: #8a3b12; }
+/* External links open a new tab and carry a box-and-arrow mark. */
+a[target="_blank"]::after {
+  content: "";
+  display: inline-block;
+  width: .65em;
+  height: .65em;
+  margin-left: .25em;
+  vertical-align: 0;
+  background-color: currentColor;
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 1.5H2a.5.5 0 0 0-.5.5v8a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5V7"/><path d="M7 1.5h3.5V5M10.5 1.5 5.5 6.5"/></svg>') no-repeat center / contain;
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="none" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 1.5H2a.5.5 0 0 0-.5.5v8a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5V7"/><path d="M7 1.5h3.5V5M10.5 1.5 5.5 6.5"/></svg>') no-repeat center / contain;
+}
+
 .draft { color: #a33; font-style: italic; }
 footer { margin-top: 3rem; border-top: 1px solid #ddd; padding-top: 1rem; font-size: .9rem; }
 @media (prefers-color-scheme: dark) {
