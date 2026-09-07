@@ -8,7 +8,7 @@ to the GitHub repo where the repo is public. Nothing else.
 - One page at alexdunham.net listing every live site, each with a link, a
   sentence on what it is, and a repo link where the repo is public.
 - Plain HTML and a few lines of CSS. No JavaScript, no data file, no build
-  step: eight entries do not need one.
+  step: nine entries do not need one.
 - Adding a site is one `<li>` in `index.html` and a `wrangler deploy`.
 
 ## Deploy
@@ -21,6 +21,6 @@ alexdunham.alexdunham14.workers.dev. (alexdunham.com belongs to someone else.)
 ## Not done
 
 - The intro line is a DRAFT placeholder for Alex to write.
-- Two sites (Classical Concert Map, Ireland Travel Map) are private repos, so
-  they have no repo link.
+- Three sites have no repo link: Classical Concert Map and Ireland Travel Map
+  are private repos; Where Does My Tax Money Go has no GitHub repo.
 - The Ireland map has no domain; it links to its workers.dev address.
