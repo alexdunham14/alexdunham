@@ -13,14 +13,14 @@ to the GitHub repo where the repo is public. Nothing else.
 
 ## Deploy
 
-`wrangler deploy` here. alexdunham.net is bought through Cloudflare Registrar,
-so the zone exists with the domain. Once it does, uncomment `routes` in
-`wrangler.jsonc` and deploy again. Until then the site is at
-alexdunham.alexdunham14.workers.dev. (alexdunham.com belongs to someone else.)
+`wrangler deploy` here. Live at https://alexdunham.net (and www), a custom
+domain on the Worker via `routes` in `wrangler.jsonc`; the zone came with the
+domain, bought through Cloudflare Registrar. alexdunham.alexdunham14.workers.dev
+still serves it too. (alexdunham.com belongs to someone else.)
 
 ## Not done
 
 - The intro line is a DRAFT placeholder for Alex to write.
 - Three sites have no repo link: Classical Concert Map and Ireland Travel Map
   are private repos; Where Does My Tax Money Go has no GitHub repo.
-- The Ireland map has no domain; it links to its workers.dev address.
+- Libretto Finder has no domain; it links to its workers.dev address.

@@ -1,7 +1,10 @@
 {
   "name": "alexdunham",
   "compatibility_date": "2026-09-01",
-  "assets": { "directory": ".", "not_found_handling": "404-page", "html_handling": "auto-trailing-slash" }
-  // Once alexdunham.net is a zone on this Cloudflare account, add:
-  // "routes": [{ "pattern": "alexdunham.net", "custom_domain": true }]
+  "assets": { "directory": ".", "not_found_handling": "404-page", "html_handling": "auto-trailing-slash" },
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "alexdunham.net", "custom_domain": true },
+    { "pattern": "www.alexdunham.net", "custom_domain": true }
+  ]
 }
